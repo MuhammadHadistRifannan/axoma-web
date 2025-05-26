@@ -2766,6 +2766,9 @@ img {
   -webkit-transition: ease all 0.3s;
   border: 1px solid #eee;
   border-bottom: 4px solid #eee;
+  background-image: url("../img/table01.jpg");
+  background-size: 150%;
+  background-position-x: center;
 }
 .price-table-01:hover {
   margin-top: -10px;

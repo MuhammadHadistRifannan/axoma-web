@@ -34,6 +34,7 @@
       document.sendin.username.value = document.login.username.value;
       document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
       document.sendin.submit();
+    
       return false;
         }
     //-->
@@ -188,7 +189,7 @@
               </div>
               <div class="row">
               <div class="col-md-6 col-lg-4 m-15px-tb">
-                <div class="price-table-01">
+                <div class="price-table-01" >
                   <div class="price-header">
                     <h4 class="price-title font-alt dark-color">Premium</h4>
                     <p>For Personal User</p>
@@ -209,7 +210,7 @@
               </div>
 
               <div class="col-md-6 col-lg-4 m-15px-tb">
-                <div class="price-table-01 theme-bg active">
+                <div class="price-table-01 theme-bg active" style="background-image: url('/static/img/table01.jpg');">
                   <div class="price-header">
                     <h4 class="price-title font-alt white-color">Pertalite</h4>
                     <p class="white-color-light">For Personal User</p>
