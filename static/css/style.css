@@ -662,7 +662,8 @@ img {
   z-index: 9;
   padding-top: 0;
   padding-bottom: 0;
-}
+
+  background-color: #000; }
 
 .header-nav a {
   transition: ease all 0.3s;
@@ -671,6 +672,8 @@ img {
 
 .header-nav .dark-logo {
   display: none;
+  background:transparent;
+  padding: 20px;
 }
 
 .header-nav .navbar-nav .nav-link {
@@ -708,29 +711,32 @@ img {
 }
 
 .header-nav .navbar-brand {
-  color: #fff;
+  color: white;
   font-weight: 600;
 }
 
 .fixed-header .header-nav {
-  background: #fff;
+  background: #000;
   box-shadow: 0 8px 50px -6px rgba(84,84,120,.26)
 }
 .fixed-header .header-nav .navbar-nav .nav-link {
-  color: #323232;
+  color: white;
 }
 .fixed-header .header-nav .navbar-brand {
   color: #323232;
 }
 .fixed-header .header-nav .navbar-nav .nav-link:before {
-  background: #000;
+  background: white;
 }
 
 .fixed-header .header-nav .light-logo {
   display: none;
+  background-color: black;
 }
 .fixed-header .header-nav .dark-logo {
   display: block;
+  background: black;
+  padding: 20px;
 }
 
 .fixed-header .header-nav a.btn { 
@@ -744,13 +750,13 @@ img {
 }
 
 .header-nav-dark .navbar-nav .nav-link {
-  color: #323232
+  color: white;
 }
 .header-nav-dark .navbar-nav .nav-link:before {
-  background: #323232
+  background: white;
 }
 .header-nav-dark .navbar-brand {
-  color: #323232
+  color: white;
 }
 
 .header-nav-style-1 {
@@ -789,11 +795,11 @@ img {
 }
 
 .fixed-header .navbar-toggler span {
-  background: #323232
+  background:white;
 }
 
 .header-nav-dark .navbar-toggler span {
-  background: #323232
+  background: white;
 }
 /**/
 
@@ -801,7 +807,8 @@ img {
   .header-nav {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+  
+  background-color: #000; }
   .header-nav .navbar-nav {
     padding: 20px 0;
     max-height: 70vh;
@@ -825,16 +832,17 @@ img {
 
   /*Header Color*/
   .navbar-toggler span {
-    background: #323232;
+    background: white;
   }
   .header-nav {
     background: #fff;
-  }
+  
+  background-color: black; }
   .header-nav .navbar-nav .nav-link {
     color: #323232;
   }
   .header-nav .navbar-brand {
-    color: #323232;
+    color: transparent;
   }
   .header-nav .navbar-nav .nav-link:before {
     background: #000;
@@ -842,9 +850,12 @@ img {
 
   .header-nav .light-logo {
     display: none;
+    background-color: transparent;
   }
   .header-nav .dark-logo {
     display: block;
+    background:transparent;
+    padding: 20px;
   }
 
   .header-nav a.btn:not(.btn-white) {
